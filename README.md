@@ -27,8 +27,8 @@ Este proyecto requiere las siguientes dependencias clave:
 
 La estructura del proyecto se organiza de la siguiente manera:
 
-- **Modelos**: Incluye dos modelos `Cliente`, uno para Sequelize (SQL) y otro para Mongoose (NoSQL).
-- **Controladores**: Dos controladores separados, `sqlCliente` y `noSqlCliente`, encargados de la lógica de negocio para cada tipo de base de datos.
+- **Modelos**: Incluye dos modelos `Usuario`, uno para Sequelize (SQL) y otro para Mongoose (NoSQL).
+- **Controladores**: Controladores encargados de administrar cada parte del codigo.
 - **Rutas**: Un enrutador único que utiliza dos middlewares correspondientes a los controladores SQL y NoSQL. El enrutador dirige las solicitudes al controlador apropiado según el último parámetro de la URL (`sql` o `nosql`).
 
 ## Configuración
